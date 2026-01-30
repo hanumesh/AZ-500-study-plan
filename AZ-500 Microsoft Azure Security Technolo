@@ -1,376 +1,42 @@
-AZ-500 Microsoft Azure Security Technologies – Exam Preparation Plan
+Labs :https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/tree/master/Instructions/Labs 
 
-Goal
+Media: https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/tree/master/Instructions/media 
 
-Prepare for the AZ-500 exam (Microsoft Certified: Azure Security Engineer Associate) using:
+Microsoft learn az-500 module wise learning path 
+https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/?practice-assessment-type=certification 
 
+Study guide for exam 
+https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500 
 
+Github link from microsoft 
+ 
+https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies  
 
+Exam topics Q& A 
+ 
+https://www.examtopics.com/exams/microsoft/az-500/ 
 
 
-Primary: Online Hosted Instructions (HTML labs)
+Exam prep videos microsoft 
+ 
+https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-500-01-fy25 
+https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-500-02-fy25 
 
+https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-500-03-fy25 
 
+https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-500-03-fy25 
 
-Support: Microsoft Learn study guide and learning paths, optional local notes/tracker
+https://learn.microsoft.com/en-us/shows/on-demand-instructor-led-training-series/az-500-01-fy25 
 
+AZ-500 Microsoft Azure Security Technologies Study Cram 
 
+ 
 
-1. Exam Overview
 
+ 
 
+ 
 
+ 
 
-
-Exam: AZ-500 Microsoft Azure Security Technologies
-
-
-
-Certification: Microsoft Certified: Azure Security Engineer Associate
-
-
-
-Passing score: 700/1000 (70%)
-
-
-
-Renewal: Annual; free renewal assessment on Microsoft Learn
-
-Skills measured (high level):
-
-
-
-
-
-Manage identity and access (e.g. RBAC, Entra ID)
-
-
-
-Plan and implement security for virtual networks (NSGs, ASGs, Azure Firewall)
-
-
-
-Plan and implement security for public access to Azure resources
-
-
-
-Secure compute, storage, and databases (ACR, AKS, SQL, Storage)
-
-
-
-Implement and manage cloud governance (Key Vault, encryption, policies)
-
-
-
-Configure and manage threat protection (Defender for Cloud, JIT, Sentinel)
-
-
-
-Configure and manage security monitoring and automation (Sentinel, Log Analytics, DCR)
-
-
-
-2. Official Content (Hosted Site)
-
-Content directory: AZ500-AzureSecurityTechnologies
-
-Lab files (templates/parameters): Download repo ZIP or clone AZ500-AzureSecurityTechnologies.
-
-Labs (11 total) – use the links on the content directory page. Hosted URLs use plain underscores (e.g. LAB_01_RBAC.html), not %5F.
-
-
-
-
-
-
-
-Module
-
-
-
-Lab
-
-
-
-
-
-Manage Identity and Access
-
-
-
-01 - Role Based Access Control
-
-
-
-
-
-Plan and implement security for virtual networks
-
-
-
-02 - Network Security Groups and Application Security Groups
-
-
-
-
-
-Plan and implement security for public access
-
-
-
-03 - Azure Firewall
-
-
-
-
-
-Secure compute, storage, and databases
-
-
-
-04 - Configuring and Securing ACR and AKS
-
-
-
-
-
-Plan and implement security for Azure SQL
-
-
-
-05 - Securing Azure SQL Database
-
-
-
-
-
-Securing Azure Storage
-
-
-
-06 - Service Endpoints and Securing Storage
-
-
-
-
-
-Implement and manage cloud governance
-
-
-
-07 - Key Vault (Always Encrypted)
-
-
-
-
-
-Threat protection – Defender for Cloud
-
-
-
-08 - Log Analytics Workspace, Storage, Data Collection Rule (DCR)
-
-
-
-
-
-Threat protection – Defender for Cloud
-
-
-
-09 - Microsoft Defender for Cloud Enhanced Security for Servers
-
-
-
-
-
-Threat protection – Defender for Cloud
-
-
-
-10 - Enable just-in-time access on VMs
-
-
-
-
-
-Security monitoring and automation
-
-
-
-11 - Microsoft Sentinel
-
-If Labs 10/11 URLs differ on the live site, open them from the content directory table.
-
-
-
-3. Lab-to-Exam-Domain Mapping
-
-
-
-
-
-Identity and access: Lab 01 (RBAC).
-
-
-
-Network security: Labs 02 (NSGs/ASGs), 03 (Azure Firewall).
-
-
-
-Public access security: Lab 03 (Azure Firewall).
-
-
-
-Compute, storage, databases: Labs 04 (ACR/AKS), 05 (Azure SQL), 06 (Storage, service endpoints).
-
-
-
-Data protection and governance: Lab 07 (Key Vault, Always Encrypted).
-
-
-
-Threat protection: Labs 08 (Log Analytics, DCR), 09 (Defender for Cloud), 10 (JIT VM access).
-
-
-
-Security monitoring and automation: Labs 08, 11 (Microsoft Sentinel).
-
-
-
-4. Recommended Study Flow
-
-
-
-
-
-Setup (once)
-
-
-
-
-
-Bookmark Content Directory.  
-
-
-
-Download or clone AZ500-AzureSecurityTechnologies for lab files.  
-
-
-
-Open AZ-500 study guide and skim skills measured.  
-
-
-
-Ensure you have an Azure subscription (e.g. free account).
-
-
-
-Per module (in order)
-
-
-
-
-
-Open the lab from the hosted content directory.  
-
-
-
-Do the lab in the Azure portal (use repo files when the lab asks for templates/scripts).  
-
-
-
-Align with the “Skills measured” section of the study guide.  
-
-
-
-Optionally keep a simple tracker (e.g. markdown) with lab name and date completed.
-
-
-
-Before the exam
-
-
-
-
-
-Revisit identity/access, network security, Key Vault, Defender for Cloud, and Sentinel.  
-
-
-
-Take the free practice assessment and any Microsoft Learn practice tests.  
-
-
-
-Review weak areas using the study guide.
-
-
-
-5. Optional: Local Materials (This Repo or New Folder)
-
-You are currently in the AZ-104 repo. For AZ-500 you can:
-
-
-
-
-
-Option A: Add a single AZ-500_PREPARATION_PLAN.md in this repo that contains this plan and the lab table (with correct URLs) so you have one place for both AZ-104 and AZ-500.  
-
-
-
-Option B: Clone AZ500-AzureSecurityTechnologies into a separate folder and add AZ-500_PREPARATION_PLAN.md (and optionally a short STUDY_TRACKER.md) there.
-
-No code or existing AZ-104 files need to change for Option A; only one new file is added.
-
-
-
-6. Key Resources
-
-
-
-
-
-Hosted labs: microsoftlearning.github.io/AZ500-AzureSecurityTechnologies  
-
-
-
-Study guide: AZ-500 study guide  
-
-
-
-Certification: Azure Security Engineer Associate  
-
-
-
-Learning path: Manage security operations (Microsoft Learn)  
-
-
-
-Lab repo: GitHub – AZ500-AzureSecurityTechnologies
-
-
-
-7. Summary Checklist
-
-
-
-
-
-Use the hosted content directory as the main entry for lab instructions.  
-
-
-
-Use plain underscores in any AZ-500 lab URLs you write (e.g. LAB_01_RBAC.html), not %5F.  
-
-
-
-Complete all 11 labs in order, aligned with exam domains.  
-
-
-
-Use the official study guide and practice assessment before the exam.  
-
-
-
-Optionally add AZ-500_PREPARATION_PLAN.md (and tracker) in this repo or in a cloned AZ-500 repo.
-
+ 
