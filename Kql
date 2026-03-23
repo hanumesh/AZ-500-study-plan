@@ -1,0 +1,11 @@
+Basics Azure: 
+Build a solid foundation in Microsoft Azure, understanding its ecosystem, core services, and how KQL fits into Azure
+Kusto Query Language: Dive into KQL fundamentals - learn its syntax, logic, and how it’s used to query structured, semi-structured, and unstructured data
+Azure Log Analytics: Understand how Azure Log Analytics serves as a central platform for collecting, storing, and analyzing log data from multiple sources
+KQL Operators – Find Relevant Data by Filtering or Searching: Master filtering and searching techniques to pinpoint the most relevant data
+KQL Operators – Operations Using Date and Time Functions: Learn to apply KQL’s powerful date and time operators
+KQL Operators – Add or Remove Columns in a Table: Gain control over your datasets by learning how to manipulate table structures
+KQL Operators – Restructure Data by Sorting or Grouping: Organize and summarize large datasets
+KQL Operators – Restructure Data to Output in a Useful Way: Discover how to transform raw query results into actionable reports
+Other KQL Concepts: Explore additional KQL capabilities and best practices
+KQL in Azure Monitor: Learn to leverage KQL within Azure Monitor to build powerful queries that enhance observability
